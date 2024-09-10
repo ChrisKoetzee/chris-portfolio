@@ -1,38 +1,175 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+html, body {
+  background-color: black;
+  text-decoration-color: rgb(123, 255, 0);
+  width: 100%;
+  margin: 0;
+  padding: 0;
   min-height: 100vh;
+  position: relative;
+  scroll-padding-top: 100px;
+
+}
+
+.MDBContainer {
+  height: 100vh;
+  width: 100vw;
+  background-color: #000000 !important;
+  color: #7FFF00;
+}
+
+navbar {
+  display: flex;
+  padding: 0;
+  justify-content: space-between;
+  background: linear-gradient(to center, rgba(128,128,128,0) 0%, rgba(128,128,128,1) 50%,  rgba(128,128,128,0) 100%);
+  z-index: 2;
+  width: 100%;
+}
+
+.nav {
+  
+  background: linear-gradient(to bottom, rgba(128,128,128,0) 0%, rgb(128, 128, 128) 50%, rgba(128,128,128,0) 100%);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.logo.zoom-out {
+  transform: scale(0);
+  opacity: 0;
+  transition: transform 1.5s ease-out, opacity 1s ease-out;
+}
+
+.logo.zoom-in {
+  transform: scale(); 
+  opacity: 1;
+}
+
+.home {
+  padding-top: 0;
+  padding-bottom: 8%;
+  margin-top: 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/src/Images/HomeImages/homeImg.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#chris-img.slide-out {
+  transform: translateX(100%);
+  opacity: 0;
+}
+
+#chris-img.slide-in {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.skill {
+  padding: 0 0 50px 0;
+  position: relative;
+}
+
+.skill-box h2 {
+  font-size: 45px;
+  font-weight: 700;
+  text-align: center;
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+  padding-bottom: 5rem;
+}
+
+.skill-project-bx {
+  background: #323030;
+  border-radius: 64px;
+  text-align: center;
+  padding: 60px 50px;
+  margin-top: 2rem;
+}
+
+.skill-box {
+  padding-top: 2rem;
+}
+
+.skill-slider {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.skill-slider .item-img {
+  width: 50%;
+  margin: 0 auto 15px auto;
+  border-color: white;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 50%;
+}
+
+.project-box {
+  padding-top: 5rem;
+  background: #3c3c3c;
+  border-radius: 64px;
+  text-align: center;
+  padding: 60px 50px;
+  margin-top: 2rem;
+}
+
+.project-box h2 {
+  font-size: 45px;
+  font-weight: 700;
+  text-align: center;
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+  padding-bottom: 2rem;
+}
+.projectCards {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  height: 100%; /* Ensure the card takes up the full height */
 }
 
-.App-link {
-  color: #61dafb;
+.cardsBody {
+  flex-grow: 1; /* Allow the body to expand and fill the card */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.MDBCardText {
+  flex-grow: 1; /* Stretch card text to fill the available space */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
+
+/* .modal-backdrop {
+  z-index: 1050 !important;
+  background-color: #4c22f1;
+} */
+
+Footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background: linear-gradient(to center, rgba(116, 109, 109, 0) 0%, rgba(128,128,128,1) 50%,  rgba(128,128,128,0) 100%);
+  z-index: 2;
+  width: 100%;
+}
+.footer {
+  background: linear-gradient(to bottom, rgba(128,128,128,0) 0%, rgb(128, 128, 128) 50%, rgba(128,128,128,0) 100%);
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  z-index: 2;
+  width: 100%;
+  left: 0;
+}
+
+
+

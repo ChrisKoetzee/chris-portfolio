@@ -1,33 +1,25 @@
-// import React from 'react';
-// import { Button } from 'react-bootstrap';
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <h3>Hi, my name is </h3>
-//         <h1><strong>Christopher Koetzee</strong></h1>
-//         <h1>Full stack Developer !!!</h1>
-//         <h2>Welcome to my Portfolio Page</h2>
-//         <Button variant="primary">Primary Button</Button>
-//       </header>
-//     </div>
-//   );
-// }
-
-// export default App;
-
 import React from 'react';
-import { MDBBtn, MDBContainer, MDBAlert } from 'mdb-react-ui-kit';
+import { MDBContainer } from 'mdb-react-ui-kit';
+import Navbar from "./Components/Navbar";
+import Home from "./Pages/Home";
+import Footer from "./Components/Footer";
+import './App.css';
+import MyJourney from './Pages/MyJourney';
+import MyProjects from './Pages/Projects';
+import MySkills from './Pages/Skills';
+import { ToastContainer } from 'react-toastify';
 
 function App() {
   return (
-    <MDBContainer className="mt-5">
-      <h1>Welcome to MDB React</h1>
-      <MDBBtn color="primary">Primary Button</MDBBtn>
-      <MDBAlert color="success" className="mt-3">
-        This is a success alert!
-      </MDBAlert>
+    <MDBContainer fluid className="d-flex flex-column justify-content-between w-100 h-100" 
+      style={{ backgroundColor: '#000000', color: '#7FFF00' }}>
+      <ToastContainer/>
+      <Navbar/>
+      <Home/>
+      <MyJourney/>
+      <MySkills/>
+      <MyProjects/>
+      <Footer/>      
     </MDBContainer>
   );
 }
