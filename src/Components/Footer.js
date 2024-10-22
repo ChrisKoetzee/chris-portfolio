@@ -36,24 +36,6 @@ const Footer = () => {
                     </MDBCol>
                     <MDBCol>
                         <section className='mb-4'>
-                            {/* <MDBBtn
-                                floating
-                                className='m-1'
-                                style={{ backgroundColor: '#3b5998' }}
-                                href='https://web.facebook.com/chris.koetzee.9'
-                                role='button'
-                            >
-                                <MDBIcon fab icon='facebook-f' />
-                            </MDBBtn>
-                            <MDBBtn
-                                floating
-                                className='m-1'
-                                style={{ backgroundColor: '#ac2bac' }}
-                                href='https://www.instagram.com/chriskoe81'
-                                role='button'
-                            >
-                                <MDBIcon fab icon='instagram' />
-                            </MDBBtn> */}
                             <MDBBtn
                                 floating
                                 className='m-1'

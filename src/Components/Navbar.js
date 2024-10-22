@@ -61,15 +61,15 @@ const Navbar = () => {
                   More about me
                 </MDBDropdownToggle>
                 <MDBDropdownMenu style={{ backgroundColor: '#7FFF00'}} >
-                  <MDBDropdownItem>
-                    <a href='#myJourney' >My Journey</a>
-                  </MDBDropdownItem>
-                  <MDBDropdownItem>
-                    <a  href='#mySkills' >My Skills</a>
-                  </MDBDropdownItem>
-                  <MDBDropdownItem >
-                    <a  href='#myProjects' >My Projects</a>
-                  </MDBDropdownItem>
+                  <MDBDropdownItem link href='#myJourney'>
+                    My Journey
+                  </MDBDropdownItem>  
+                  <MDBDropdownItem link href='#mySkills'>
+                    My Skills
+                  </MDBDropdownItem>  
+                  <MDBDropdownItem link href='#myProjects'>
+                    My Projects
+                  </MDBDropdownItem>  
                 </MDBDropdownMenu>
               </MDBDropdown>
             </MDBNavbarItem>
