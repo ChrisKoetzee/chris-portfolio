@@ -13,6 +13,7 @@ import {
 import UmfaziImage from '../Images/ProjectImages/Umfazi.png';
 import TVShows from '../Images/ProjectImages/TVShows.png';
 import Recipes from '../Images/ProjectImages/Recipes.png';
+import myFinalProject from '../Images/ProjectImages/myFinalProject.png';
 
 const Projects = () => {
     
@@ -65,20 +66,22 @@ const Projects = () => {
                             </MDBCard>
                         </MDBCol>
                     </MDBRow>                 
-                    {/* <MDBRow className='p-3'>
+                    <MDBRow className='p-3'>
                     <MDBCol className='d-flex flex-coloum justify-content-space-between p-3'xs={12} sm={12} md={12} lg={6} xl={4}>
                        <MDBCard className='projectCards' id='projectCards'>
                             <MDBCardBody className='cardsBody' id='cardsBody'>
-                                <MDBCardImage position='top' alt='...' src='https://mdbootstrap.com/img/new/standard/city/062.webp' />
-                                <MDBCardTitle>Special title treatment</MDBCardTitle>
+                            <a href='https://my-final-project-2.onrender.com/' target='_blank' rel='noopener noreferrer'>
+                                <MDBCardImage position='top' alt='Final project home page' src={myFinalProject} />
+                            </a>
+                                <MDBCardTitle>My Final Project</MDBCardTitle>
                                 <MDBCardText className='cardText'>
-                                    With supporting text below as a natural lead-in to additional content.
+                                    This project was created to assist a disadvantaged school with certain tasks that they would have a platform to carry out these tasks. This was a collaboration between 4 developers, a Scrum master and a Project manager where we had weekly sprints as well as standup's mastering our development skills as well as our agile methodologies
                                 </MDBCardText>
-                                <MDBCardLink href='#'>Go somewhere</MDBCardLink>
+                                <MDBCardLink href='https://github.com/ChrisKoetzee/my-final-project'>My Github link</MDBCardLink>
                             </MDBCardBody>
                             </MDBCard>
                         </MDBCol>
-                        <MDBCol className='d-flex flex-coloum justify-content-space-between p-3' xs={12} sm={12} md={12} lg={6} xl={4}>
+                        {/* <MDBCol className='d-flex flex-coloum justify-content-space-between p-3' xs={12} sm={12} md={12} lg={6} xl={4}>
                             <MDBCard className='projectCards' id='projectCards'>
                                 <MDBCardBody className='cardsBody' id='cardsBody'>
                                      <MDBCardImage position='top' alt='...' src='https://mdbootstrap.com/img/new/standard/city/062.webp' />
@@ -89,8 +92,8 @@ const Projects = () => {
                                     <MDBCardLink href='#'>Go somewhere</MDBCardLink>
                                 </MDBCardBody>
                             </MDBCard>
-                        </MDBCol>
-                        <MDBCol className='d-flex flex-coloum justify-content-space-between p-3' xs={12} sm={12} md={12} lg={6} xl={4}>
+                        </MDBCol> */}
+                        {/* <MDBCol className='d-flex flex-coloum justify-content-space-between p-3' xs={12} sm={12} md={12} lg={6} xl={4}>
                             <MDBCard className='projectCards' id='projectCards'>
                                 <MDBCardBody className='cardsBody' id='cardsBody'>
                                     <MDBCardImage position='top' alt='...' src='https://mdbootstrap.com/img/new/standard/city/062.webp' />
@@ -112,8 +115,8 @@ const Projects = () => {
                                     <MDBCardLink href='https://github.com/ChrisKoetzee/Douglas-Road-Primary'>Github Link</MDBCardLink>
                                  </MDBCardBody>
                             </MDBCard>
-                        </MDBCol>
-                    </MDBRow> */}
+                        </MDBCol> */}
+                    </MDBRow>
                 </div> 
             </Container>
         </section>
