@@ -7,7 +7,6 @@ html, body {
   min-height: 100vh;
   position: relative;
   scroll-padding-top: 100px;
-
 }
 
 .MDBContainer {
@@ -131,27 +130,23 @@ navbar {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 100%; /* Ensure the card takes up the full height */
+  height: 100%; 
 }
 
 .cardsBody {
-  flex-grow: 1; /* Allow the body to expand and fill the card */
+  flex-grow: 1; 
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
 .MDBCardText {
-  flex-grow: 1; /* Stretch card text to fill the available space */
+  flex-grow: 1; 
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-/* .modal-backdrop {
-  z-index: 1050 !important;
-  background-color: #4c22f1;
-} */
 
 Footer {
   display: flex;
