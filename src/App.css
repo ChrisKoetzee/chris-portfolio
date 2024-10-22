@@ -86,7 +86,8 @@ navbar {
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
-  margin-top: 2rem;
+  margin-top: auto;
+  border: 5px solid white
 }
 
 .skill-box {
@@ -110,11 +111,13 @@ navbar {
 
 .project-box {
   padding-top: 5rem;
-  background: #3c3c3c;
+  color: white;
+  background: #7FFF00;
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
-  margin-top: 2rem;
+  margin-top: 10em;
+  border: 8px solid white
 }
 
 .project-box h2 {

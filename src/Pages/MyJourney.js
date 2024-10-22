@@ -43,7 +43,7 @@ const MyJourney = () => {
                             color: 'Black',
                             maxWidth:'1200px',
                             borderColor: 'white', 
-                            borderWidth: '5px', 
+                            borderWidth: '8px', 
                             borderStyle: 'solid' ,
                             borderRadius: '30px',
                         }} >

@@ -37,9 +37,9 @@ const Navbar = () => {
       color: '#7FFF00',
       }}>
         <div className='d-flex align-items-center'>
-          <MDBNavbarBrand link href='#home' style={{ color: '#7FFF00', padding: '1rem',}} >
+          <MDBNavbarBrand href='#home' style={{ color: '#7FFF00', padding: '1rem',}} >
             <img 
-                src={Logo} thumbnail
+                src={Logo} 
                 alt='TnT Logo' 
                 className={`logo ${logoVisible ? 'zoom-in' : 'zoom-out'}`}
                 style={{ 
@@ -61,9 +61,15 @@ const Navbar = () => {
                   More about me
                 </MDBDropdownToggle>
                 <MDBDropdownMenu style={{ backgroundColor: '#7FFF00'}} >
-                  <MDBDropdownItem link href='#myJourney'>My Journey</MDBDropdownItem>
-                  <MDBDropdownItem link href='#mySkills'>My Skills</MDBDropdownItem>
-                  <MDBDropdownItem link href='#myProjects'>My Projects</MDBDropdownItem>
+                  <MDBDropdownItem>
+                    <a href='#myJourney' >My Journey</a>
+                  </MDBDropdownItem>
+                  <MDBDropdownItem>
+                    <a  href='#mySkills' >My Skills</a>
+                  </MDBDropdownItem>
+                  <MDBDropdownItem >
+                    <a  href='#myProjects' >My Projects</a>
+                  </MDBDropdownItem>
                 </MDBDropdownMenu>
               </MDBDropdown>
             </MDBNavbarItem>
