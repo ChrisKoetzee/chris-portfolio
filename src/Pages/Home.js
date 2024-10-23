@@ -28,12 +28,12 @@ const Home = () => {
                         height: '100vh',           
                         width:'100%',
                         marginTop: '10rem',
-                        paddingTop: '15rem',
+                        paddingTop: '15rem'
                         }}>
                 <Row className="w-100" style={{ 
                         height: '100vh', 
                         width:'100%',
-                        paddingLeft: '15%',
+                        paddingLeft: '15%'
                         }}>
                     <Col  xs={12} sm={12} md={12} lg={12} xl={6} className="d-flex flex-column align-items-center justify-content-center ">
                     <h3>Hi, my name is </h3>
@@ -57,7 +57,7 @@ const Home = () => {
                                 borderWidth: '3px',
                                 borderStyle: 'solid',
                                 borderRadius: '30px',
-                                transition: 'transform 1s ease-out',
+                                transition: 'transform 1s ease-out'
                         }} />
                     </Col>
                 </Row>

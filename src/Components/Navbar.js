@@ -30,14 +30,14 @@ const Navbar = () => {
   return (
     <MDBNavbar expand='lg' className='navbar ' style={{ 
       backgroundColor: '#000000',
-      color: '#7FFF00',
+      color: '#7FFF00'
       }}>
       <MDBContainer fluid className='nav' style={{ 
       backgroundColor: '#000000',
-      color: '#7FFF00',
+      color: '#7FFF00'
       }}>
         <div className='d-flex align-items-center'>
-          <MDBNavbarBrand href='#home' style={{ color: '#7FFF00', padding: '1rem',}} >
+          <MDBNavbarBrand href='#home' style={{ color: '#7FFF00', padding: '1rem'}} >
             <img 
                 src={Logo} 
                 alt='TnT Logo' 
@@ -49,7 +49,7 @@ const Navbar = () => {
                   borderWidth: '3px', 
                   borderStyle: 'solid',
                   borderRadius: '30px',
-                  transition: 'transform 1.5s ease-out',
+                  transition: 'transform 1.5s ease-out'
                 }}/>
           </MDBNavbarBrand>
         </div>

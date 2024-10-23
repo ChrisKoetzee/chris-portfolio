@@ -24,7 +24,7 @@ const MyJourney = () => {
                     display: 'flex',
                     justifyContent: 'center',
                     alignItems: 'center',
-                    paddingBottom: '2rem',
+                    paddingBottom: '2rem'
                 }}>
                 <MDBCarousel className='carousel'
                     style={{ 
@@ -33,7 +33,7 @@ const MyJourney = () => {
                         margin: 'auto', 
                         display: 'flex',
                         justifyContent: 'center',
-                        alignItems: 'center',
+                        alignItems: 'center'
                     }} showControls={true} showIndicators={true} dark interval={30000}>
                     <MDBCarouselItem itemId={1} className='img1'>
                         <MDBCard style={{
@@ -45,7 +45,7 @@ const MyJourney = () => {
                             borderColor: 'white', 
                             borderWidth: '8px', 
                             borderStyle: 'solid' ,
-                            borderRadius: '30px',
+                            borderRadius: '30px'
                         }} >
                             <MDBCardBody >
                                 <MDBCardTitle><strong>About Me</strong></MDBCardTitle>
@@ -59,7 +59,7 @@ const MyJourney = () => {
                                     borderColor: 'white', 
                                     borderWidth: '3px', 
                                     borderStyle: 'solid' ,
-                                    borderRadius: '30px',
+                                    borderRadius: '30px'
                                 }} />
                             </MDBCardBody>
                         </MDBCard>
@@ -74,7 +74,7 @@ const MyJourney = () => {
                             borderColor: 'white', 
                             borderWidth: '5px', 
                             borderStyle: 'solid' ,
-                            borderRadius: '30px',
+                            borderRadius: '30px'
                         }}>
                             <MDBCardBody>
                                 <MDBCardTitle><strong>In the Beginning</strong></MDBCardTitle>
@@ -88,7 +88,7 @@ const MyJourney = () => {
                                     borderColor: 'white', 
                                     borderWidth: '3px', 
                                     borderStyle: 'solid' ,
-                                    borderRadius: '30px',
+                                    borderRadius: '30px'
                                 }} />
                             </MDBCardBody>
                         </MDBCard>
@@ -103,7 +103,7 @@ const MyJourney = () => {
                             borderColor: 'white', 
                             borderWidth: '5px', 
                             borderStyle: 'solid' ,
-                            borderRadius: '30px',
+                            borderRadius: '30px'
                         }}>
                             <MDBCardBody>
                                 <MDBCardTitle><strong>The finish line</strong></MDBCardTitle>
@@ -117,7 +117,7 @@ const MyJourney = () => {
                                     borderColor: 'white', 
                                     borderWidth: '3px', 
                                     borderStyle: 'solid' ,
-                                    borderRadius: '30px',
+                                    borderRadius: '30px'
                                 }} />
                             </MDBCardBody>
                         </MDBCard>
@@ -132,7 +132,7 @@ const MyJourney = () => {
                             borderColor: 'white', 
                             borderWidth: '5px', 
                             borderStyle: 'solid' ,
-                            borderRadius: '30px',
+                            borderRadius: '30px'
                         }}>
                             <MDBCardBody>
                                 <MDBCardTitle><strong>Whats next</strong></MDBCardTitle>
@@ -146,7 +146,7 @@ const MyJourney = () => {
                                     borderColor: 'white', 
                                     borderWidth: '3px', 
                                     borderStyle: 'solid' ,
-                                    borderRadius: '30px',
+                                    borderRadius: '30px'
                                 }} />
                             </MDBCardBody>
                         </MDBCard>

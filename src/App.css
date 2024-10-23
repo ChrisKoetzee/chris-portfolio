@@ -134,6 +134,8 @@ html, body {
   flex-direction: column;
   justify-content: space-between;
   height: 100%; 
+  min-height: 600px; 
+  max-height: auto; 
 }
 
 .cardsBody {
@@ -141,10 +143,24 @@ html, body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  border: 5px solid yellow;
+  border-radius: 10px;
+}
+
+.MDBCardImage {
+  max-height: 200px; 
+  object-fit: cover; 
+  width: 100%; 
 }
 
 .MDBCardText {
   flex-grow: 1; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.MDBCol {
   display: flex;
   flex-direction: column;
   justify-content: space-between;

@@ -112,7 +112,7 @@ const ModalContact = () => {
                   label="Message"
                   style={{
                     minHeight: "100px",
-                    resize: "vertical",
+                    resize: "vertical"
                   }}
                   name="user_message"
                   value={formData.user_message}

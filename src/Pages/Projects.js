@@ -23,7 +23,7 @@ const Projects = () => {
                 <div className='project-box'>
                 <h2>Projects</h2>
                 <MDBRow className='p-3'>
-                    <MDBCol className='d-flex flex-coloum justify-content-space-between p-3'  xs={12} sm={12} md={12} lg={6} xl={4}>
+                    <MDBCol className='d-flex flex-column justify-content-space-between p-3'  xs={12} sm={12} md={12} lg={6} xl={4}>
                         <MDBCard className='projectCards' id='projectCards'>
                              <MDBCardBody className='cardsBody' id='cardsBody'>
                                 <a href='https://umfazicat.netlify.app/' target='_blank' rel='noopener noreferrer'>
@@ -37,7 +37,7 @@ const Projects = () => {
                             </MDBCardBody>
                             </MDBCard>
                         </MDBCol>
-                        <MDBCol className='d-flex flex-coloum justify-content-space-between p-3' xs={12} sm={12} md={12} lg={6} xl={4}>
+                        <MDBCol className='d-flex flex-column justify-content-space-between p-3' xs={12} sm={12} md={12} lg={6} xl={4}>
                             <MDBCard className='projectCards' id='projectCards'>
                                 <MDBCardBody className='cardsBody' id='cardsBody'>
                                 <a href='https://recipes-galore-jsrv.onrender.com' target='_blank' rel='noopener noreferrer'>
@@ -51,7 +51,7 @@ const Projects = () => {
                             </MDBCardBody>
                             </MDBCard>
                         </MDBCol>
-                        <MDBCol className='d-flex flex-coloum justify-content-space-between p-3' xs={12} sm={12} md={12} lg={6} xl={4}>
+                        <MDBCol className='d-flex flex-column justify-content-space-between p-3' xs={12} sm={12} md={12} lg={6} xl={4}>
                             <MDBCard className='projectCards' id='projectCards'>
                             <MDBCardBody className='cardsBody' id='cardsBody'>
                             <a href='https://cyf-chriskoetzee-tv.netlify.app/' target='_blank' rel='noopener noreferrer'>
@@ -67,7 +67,7 @@ const Projects = () => {
                         </MDBCol>
                     </MDBRow>                 
                     <MDBRow className='p-3'>
-                    <MDBCol className='d-flex flex-coloum justify-content-space-between p-3'xs={12} sm={12} md={12} lg={6} xl={4}>
+                    <MDBCol className='d-flex flex-column justify-content-space-between p-3'xs={12} sm={12} md={12} lg={6} xl={4}>
                        <MDBCard className='projectCards' id='projectCards'>
                             <MDBCardBody className='cardsBody' id='cardsBody'>
                             <a href='https://my-final-project-2.onrender.com/' target='_blank' rel='noopener noreferrer'>
@@ -81,7 +81,7 @@ const Projects = () => {
                             </MDBCardBody>
                             </MDBCard>
                         </MDBCol>
-                        {/* <MDBCol className='d-flex flex-coloum justify-content-space-between p-3' xs={12} sm={12} md={12} lg={6} xl={4}>
+                        {/* <MDBCol className='d-flex flex-column justify-content-space-between p-3' xs={12} sm={12} md={12} lg={6} xl={4}>
                             <MDBCard className='projectCards' id='projectCards'>
                                 <MDBCardBody className='cardsBody' id='cardsBody'>
                                      <MDBCardImage position='top' alt='...' src='https://mdbootstrap.com/img/new/standard/city/062.webp' />
@@ -93,7 +93,7 @@ const Projects = () => {
                                 </MDBCardBody>
                             </MDBCard>
                         </MDBCol> */}
-                        {/* <MDBCol className='d-flex flex-coloum justify-content-space-between p-3' xs={12} sm={12} md={12} lg={6} xl={4}>
+                        {/* <MDBCol className='d-flex flex-column justify-content-space-between p-3' xs={12} sm={12} md={12} lg={6} xl={4}>
                             <MDBCard className='projectCards' id='projectCards'>
                                 <MDBCardBody className='cardsBody' id='cardsBody'>
                                     <MDBCardImage position='top' alt='...' src='https://mdbootstrap.com/img/new/standard/city/062.webp' />
