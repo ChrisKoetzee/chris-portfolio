@@ -5,7 +5,7 @@ import {
     MDBCol,
     MDBIcon,
     MDBBtn,
-    MDBFooter,
+    MDBFooter
 } from 'mdb-react-ui-kit';
 import ModalContact from "./ModalContact";
 import { ToastContainer } from 'react-toastify';

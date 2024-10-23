@@ -12,7 +12,7 @@ import {
   MDBDropdownToggle,
   MDBDropdownMenu,
   MDBDropdownItem,
-  MDBCollapse,
+  MDBCollapse
 } from 'mdb-react-ui-kit';
 import Logo from '../Images/Logo-TnT2.png';
   import ModalContact from "./ModalContact";

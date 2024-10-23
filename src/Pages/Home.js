@@ -47,7 +47,7 @@ const Home = () => {
                     <Col  xs={12} sm={12} md={12} lg={12} xl={6} className="d-flex flex-column align-items-center justify-content-center">
                         <Image  
                             id="chris-img"
-                            src={ChrisImg}
+                            src={ChrisImg} 
                             thumbnail
                             className={imgIn ? 'slide-in' : 'slide-out'}
                             style={{

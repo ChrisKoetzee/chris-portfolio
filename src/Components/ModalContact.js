@@ -8,7 +8,7 @@ import {
   MDBModalTitle,
   MDBModalBody,
   MDBModalFooter,
-  MDBInput,
+  MDBInput
 } from "mdb-react-ui-kit";
 import emailjs from '@emailjs/browser';
 import { toast } from 'react-toastify';

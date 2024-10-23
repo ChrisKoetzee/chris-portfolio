@@ -8,7 +8,7 @@ import {
     MDBCardBody,
     MDBCardTitle,
     MDBCardText,
-    MDBCardLink,
+    MDBCardLink
 } from 'mdb-react-ui-kit';
 import UmfaziImage from '../Images/ProjectImages/Umfazi.png';
 import TVShows from '../Images/ProjectImages/TVShows.png';
@@ -27,9 +27,9 @@ const Projects = () => {
                         <MDBCard className='projectCards' id='projectCards'>
                              <MDBCardBody className='cardsBody' id='cardsBody'>
                                 <a href='https://umfazicat.netlify.app/' target='_blank' rel='noopener noreferrer'>
-                                    <MDBCardImage position='top' alt='Umfazi Clean and Tidy' src={UmfaziImage} />
+                                    <MDBCardImage className='projectImg' position='top' alt='Umfazi Clean and Tidy' src={UmfaziImage} />
                                 </a>
-                                <MDBCardTitle><strong>Click image to go to the website</strong></MDBCardTitle>
+                                <MDBCardTitle><strong>Umfazi Clean and Tidy</strong></MDBCardTitle>
                                 <MDBCardText className='cardText'>
                                     This website, <strong>Umfazi Clean and Tidy</strong>, was developed for a community based cleaning company that just started up by 2 school friends who is based and grew up in Elsies river.
                                 </MDBCardText>
@@ -41,9 +41,9 @@ const Projects = () => {
                             <MDBCard className='projectCards' id='projectCards'>
                                 <MDBCardBody className='cardsBody' id='cardsBody'>
                                 <a href='https://recipes-galore-jsrv.onrender.com' target='_blank' rel='noopener noreferrer'>
-                                    <MDBCardImage position='top' alt='Recipes Galore website' src={Recipes} />
+                                    <MDBCardImage className='projectImg' position='top' alt='Recipes Galore website' src={Recipes} />
                                 </a>
-                                <MDBCardTitle><strong>Click image to go to the website</strong></MDBCardTitle>
+                                <MDBCardTitle><strong>Recipes Galore Project</strong></MDBCardTitle>
                                 <MDBCardText className='cardText'>
                                     This website, <strong>Recipes Galore</strong> was created to have one space where you could have recipes with ingredients and videos all in one with easy access using what ingredients you have on hand already. Here we were 3 developers collaborating on this porject
                                 </MDBCardText>
@@ -55,9 +55,9 @@ const Projects = () => {
                             <MDBCard className='projectCards' id='projectCards'>
                             <MDBCardBody className='cardsBody' id='cardsBody'>
                             <a href='https://cyf-chriskoetzee-tv.netlify.app/' target='_blank' rel='noopener noreferrer'>
-                                    <MDBCardImage position='top' alt='tv shows project' src={TVShows} />
+                                    <MDBCardImage className='projectImg' position='top' alt='tv shows project' src={TVShows} />
                                 </a>
-                                <MDBCardTitle><strong>Click image to go to the website</strong></MDBCardTitle>
+                                <MDBCardTitle><strong>My TV Shows Project</strong></MDBCardTitle>
                                 <MDBCardText className='cardText'>
                                     This website was one of my projects that I had during the Code Your future Bootcamp that I was part of. Here we made use of an API to pull through the relevant information.
                                 </MDBCardText>
@@ -71,9 +71,9 @@ const Projects = () => {
                        <MDBCard className='projectCards' id='projectCards'>
                             <MDBCardBody className='cardsBody' id='cardsBody'>
                             <a href='https://my-final-project-2.onrender.com/' target='_blank' rel='noopener noreferrer'>
-                                <MDBCardImage position='top' alt='Final project home page' src={myFinalProject} />
+                                <MDBCardImage className='projectImg' position='top' alt='Final project home page' src={myFinalProject} />
                             </a>
-                                <MDBCardTitle>My Final Project</MDBCardTitle>
+                                <MDBCardTitle><strong>My Final Project</strong></MDBCardTitle>
                                 <MDBCardText className='cardText'>
                                     This project was created to assist a disadvantaged school with certain tasks that they would have a platform to carry out these tasks. This was a collaboration between 4 developers, a Scrum master and a Project manager where we had weekly sprints as well as standup's mastering our development skills as well as our agile methodologies
                                 </MDBCardText>
@@ -84,7 +84,9 @@ const Projects = () => {
                         {/* <MDBCol className='d-flex flex-column justify-content-space-between p-3' xs={12} sm={12} md={12} lg={6} xl={4}>
                             <MDBCard className='projectCards' id='projectCards'>
                                 <MDBCardBody className='cardsBody' id='cardsBody'>
-                                     <MDBCardImage position='top' alt='...' src='https://mdbootstrap.com/img/new/standard/city/062.webp' />
+                                     <a href='#' target='_blank' rel='noopener noreferrer'>
+                                        <MDBCardImage className='projectImg' position='top' alt='' src='' />
+                                    </a>
                                      <MDBCardTitle>Special title treatment</MDBCardTitle>
                                     <MDBCardText className='cardText'>
                                         With supporting text below as a natural lead-in to additional content.
@@ -96,7 +98,9 @@ const Projects = () => {
                         {/* <MDBCol className='d-flex flex-column justify-content-space-between p-3' xs={12} sm={12} md={12} lg={6} xl={4}>
                             <MDBCard className='projectCards' id='projectCards'>
                                 <MDBCardBody className='cardsBody' id='cardsBody'>
-                                    <MDBCardImage position='top' alt='...' src='https://mdbootstrap.com/img/new/standard/city/062.webp' />
+                                    <a href='#' target='_blank' rel='noopener noreferrer'>
+                                        <MDBCardImage className='projectImg' position='top' alt='' src='' />
+                                    </a>
                                     <MDBCardTitle>Special title treatment</MDBCardTitle>
                                     <MDBCardText className='cardText'>
                                         With supporting text below as a natural lead-in to additional content.
@@ -106,7 +110,7 @@ const Projects = () => {
                            <MDBCard className='projectCards' id='projectCards'>
                                 <MDBCardBody className='cardsBody' id='cardsBody'>
                                     <a href='#' target='_blank' rel='noopener noreferrer'>
-                                        <MDBCardImage position='top' alt='website for Douglas Road Primary school' src='' />
+                                        <MDBCardImage className='projectImg' position='top' alt='' src='' />
                                     </a>
                                     <MDBCardTitle><strong>Click image to go to the website</strong></MDBCardTitle>
                                     <MDBCardText className='cardText'>
