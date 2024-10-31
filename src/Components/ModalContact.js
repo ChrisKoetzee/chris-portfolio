@@ -11,7 +11,7 @@ import {
   MDBInput
 } from "mdb-react-ui-kit";
 import emailjs from '@emailjs/browser';
-import { toast } from 'react-toastify';
+import { toast } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
 
 const ModalContact = () => {

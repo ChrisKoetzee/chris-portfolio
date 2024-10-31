@@ -18,7 +18,7 @@
     "react-dom": "^18.3.1",
     "react-multi-carousel": "^2.8.5",
     "react-router-dom": "^6.26.1",
-    "react-scripts": "^3.0.1",
+    "react-scripts": "^5.0.1",
     "react-toastify": "^10.0.5",
     "web-vitals": "^2.1.4"
   },
@@ -48,8 +48,11 @@
   },
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
-    "css-minimizer-webpack-plugin": "^7.0.0",
+    "@babel/preset-env": "^7.26.0",
+    "react-app-rewired": "^2.2.1",
     "stylelint": "^16.10.0",
-    "webpack-bundle-analyzer": "^4.10.2"
+    "webpack": "^5.95.0",
+    "webpack-bundle-analyzer": "^4.10.2",
+    "webpack-cli": "^5.1.4"
   }
 }
