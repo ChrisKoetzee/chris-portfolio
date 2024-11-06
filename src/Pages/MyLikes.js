@@ -1,11 +1,7 @@
 import React from 'react';
 
-const MyLikes = () => {
-    return (
-        <div>
-
-        </div>
-    )
-};
+function MyLikes() {
+  return <div />;
+}
 
 export default MyLikes;

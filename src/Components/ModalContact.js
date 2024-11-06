@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useRef } from 'react';
 import {
   MDBBtn,
   MDBModal,
@@ -8,18 +8,18 @@ import {
   MDBModalTitle,
   MDBModalBody,
   MDBModalFooter,
-  MDBInput
-} from "mdb-react-ui-kit";
+  MDBInput,
+} from 'mdb-react-ui-kit';
 import emailjs from '@emailjs/browser';
-import { toast } from "react-toastify";
+import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-const ModalContact = () => {
+function ModalContact() {
   const [formOpen, setFormOpen] = useState(false);
   const [formData, setFormData] = useState({
-    user_name: "",
-    user_email: "",
-    user_message: ""
+    user_name: '',
+    user_email: '',
+    user_message: '',
   });
 
   const Form = useRef();
@@ -34,7 +34,7 @@ const ModalContact = () => {
     const { name, value } = e.target;
     setFormData({
       ...formData,
-      [name]: value
+      [name]: value,
     });
   };
 
@@ -42,12 +42,9 @@ const ModalContact = () => {
     e.preventDefault();
 
     if (!formData.user_name || !formData.user_email || !formData.user_message) {
-      console.log("Please complete all fields");
-      toast.info("Please complete all fields");
+      toast.info('Please complete all fields');
       return;
     }
-    
-    console.log("Sending email...");
 
     emailjs
       .sendForm(serviceId, contactId, Form.current, {
@@ -55,22 +52,21 @@ const ModalContact = () => {
       })
       .then(
         () => {
-          console.log('SUCCESS!');
           toast.success('Email sent successfully!', { autoClose: 2000 });
           setFormData({
-            user_name: "",
-            user_email: "",
-            user_message: ""  
+            user_name: '',
+            user_email: '',
+            user_message: '',
           });
           toggleModal();
         },
         (error) => {
-          console.log('FAILED...', error.text);
+          error.message('error loading');
           toast.error('Failed to send email.');
         },
       );
   };
-  
+
   const submitForm = (e) => {
     e.preventDefault();
     sendEmail(e);
@@ -79,7 +75,11 @@ const ModalContact = () => {
   return (
     <div>
       <MDBBtn onClick={toggleModal}>Contact Me</MDBBtn>
-      <MDBModal tabIndex="-1" open={formOpen} onClose={() => setFormOpen(false)}>
+      <MDBModal
+        tabIndex="-1"
+        open={formOpen}
+        onClose={() => setFormOpen(false)}
+      >
         <MDBModalDialog centered>
           <MDBModalContent>
             <MDBModalHeader>
@@ -111,18 +111,14 @@ const ModalContact = () => {
                   rows={4}
                   label="Message"
                   style={{
-                    minHeight: "100px",
-                    resize: "vertical"
+                    minHeight: '100px',
+                    resize: 'vertical',
                   }}
                   name="user_message"
                   value={formData.user_message}
                   onChange={handleInputChange}
                 />
-                <MDBInput
-                  className="mb-4"
-                  type="submit"
-                  value="Send"
-                />
+                <MDBInput className="mb-4" type="submit" value="Send" />
               </form>
             </MDBModalBody>
             <MDBModalFooter>
@@ -133,6 +129,6 @@ const ModalContact = () => {
       </MDBModal>
     </div>
   );
-};
+}
 
 export default ModalContact;
