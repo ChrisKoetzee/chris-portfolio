@@ -22,7 +22,7 @@ body {
     to center,
     rgba(128, 128, 128, 0) 0%,
     rgba(128, 128, 128, 1) 50%,
-    rgba(128, 128, 128, 0) 100%,
+    rgba(128, 128, 128, 0) 100%
   );
   display: flex;
   justify-content: space-between;
@@ -36,7 +36,7 @@ body {
     to bottom,
     rgba(128, 128, 128, 0) 0%,
     rgb(128, 128, 128) 50%,
-    rgba(128, 128, 128, 0) 100%,
+    rgba(128, 128, 128, 0) 100%
   );
   position: fixed;
   top: 0;
@@ -186,7 +186,7 @@ body {
     to bottom,
     rgba(128, 128, 128, 0) 0%,
     rgb(128, 128, 128) 50%,
-    rgba(128, 128, 128, 0) 100%,
+    rgba(128, 128, 128, 0) 100%
   );
   display: flex;
   justify-content: space-between;
