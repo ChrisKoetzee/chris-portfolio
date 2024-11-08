@@ -3,7 +3,7 @@ module.exports = {
     browser: true,
     es2021: true,
   },
-  extends: 'airbnb',
+  extends: ['airbnb', 'react-app', 'react-app/jest'],
   overrides: [
     {
       env: {
