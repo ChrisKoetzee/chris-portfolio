@@ -30,7 +30,7 @@ function Navbar() {
   return (
     <MDBNavbar
       expand="lg"
-      className="navbar "
+      className="navbar"
       style={{
         backgroundColor: '#000000',
         color: '#7FFF00',
@@ -47,7 +47,10 @@ function Navbar() {
         <div className="d-flex align-items-center">
           <MDBNavbarBrand
             href="#home"
-            style={{ color: '#7FFF00', padding: '1rem' }}
+            style={{
+              color: '#7FFF00',
+              padding: '1rem',
+            }}
           >
             <img
               src={Logo}

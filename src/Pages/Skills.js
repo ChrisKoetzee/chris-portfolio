@@ -51,7 +51,10 @@ function Skills() {
                     className="item-img"
                     src={WebDevelImg}
                     alt="building a website"
-                    style={{ height: '200px', width: '200px' }}
+                    style={{
+                      height: '200px',
+                      width: '200px',
+                    }}
                   />
                   <h5>Web Development</h5>
                 </div>
@@ -60,7 +63,10 @@ function Skills() {
                     className="item-img"
                     src={HtmlImg}
                     alt="HTML Icon"
-                    style={{ height: '200px', width: '200px' }}
+                    style={{
+                      height: '200px',
+                      width: '200px',
+                    }}
                   />
                   <h5>HTML</h5>
                 </div>
@@ -69,7 +75,10 @@ function Skills() {
                     className="item-img"
                     src={CssImg}
                     alt="CSS Icon"
-                    style={{ height: '200px', width: '200px' }}
+                    style={{
+                      height: '200px',
+                      width: '200px',
+                    }}
                   />
                   <h5>CSS</h5>
                 </div>
@@ -78,7 +87,10 @@ function Skills() {
                     className="item-img"
                     src={JSImg}
                     alt="JavaScript Icon"
-                    style={{ height: '200px', width: '200px' }}
+                    style={{
+                      height: '200px',
+                      width: '200px',
+                    }}
                   />
                   <h5>JavaScript</h5>
                 </div>
@@ -87,7 +99,10 @@ function Skills() {
                     className="item-img"
                     src={NodeImg}
                     alt="Node.js Logo"
-                    style={{ height: '200px', width: '200px' }}
+                    style={{
+                      height: '200px',
+                      width: '200px',
+                    }}
                   />
                   <h5>Node.js</h5>
                 </div>
@@ -96,7 +111,10 @@ function Skills() {
                     className="item-img"
                     src={PgSQLImg}
                     alt="PostgreSQL Logo"
-                    style={{ height: '200px', width: '200px' }}
+                    style={{
+                      height: '200px',
+                      width: '200px',
+                    }}
                   />
                   <h5>PostgreSQL</h5>
                 </div>
@@ -105,7 +123,10 @@ function Skills() {
                     className="item-img"
                     src={ReactImg}
                     alt="React Logo"
-                    style={{ height: '200px', width: '200px' }}
+                    style={{
+                      height: '200px',
+                      width: '200px',
+                    }}
                   />
                   <h5>Reactjs</h5>
                 </div>
@@ -114,7 +135,10 @@ function Skills() {
                     className="item-img"
                     src={ProblemSolIml}
                     alt="Man thinking"
-                    style={{ height: '200px', width: '200px' }}
+                    style={{
+                      height: '200px',
+                      width: '200px',
+                    }}
                   />
                   <h5>Problem solving</h5>
                 </div>
@@ -123,7 +147,10 @@ function Skills() {
                     className="item-img"
                     src={AgileImg}
                     alt="Agile flow"
-                    style={{ height: '200px', width: '200px' }}
+                    style={{
+                      height: '200px',
+                      width: '200px',
+                    }}
                   />
                   <h5>Agile methodologies</h5>
                 </div>

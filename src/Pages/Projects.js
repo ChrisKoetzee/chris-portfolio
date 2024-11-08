@@ -30,15 +30,15 @@ function Projects() {
               lg={6}
               xl={4}
             >
-              <MDBCard className="projectCards" id="projectCards">
-                <MDBCardBody className="cardsBody" id="cardsBody">
+              <MDBCard className="project-cards" id="project-cards">
+                <MDBCardBody className="cards-body" id="cards-body">
                   <a
                     href="https://umfazicat.netlify.app/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     <MDBCardImage
-                      className="projectImg"
+                      className="project-img"
                       position="top"
                       alt="Umfazi Clean and Tidy"
                       src={UmfaziImage}
@@ -47,7 +47,7 @@ function Projects() {
                   <MDBCardTitle>
                     <strong>Umfazi Clean and Tidy</strong>
                   </MDBCardTitle>
-                  <MDBCardText className="cardText">
+                  <MDBCardText className="card-text">
                     This website, Umfazi Clean and Tidy, was developed for a
                     community based cleaning company that just started up by 2
                     school friends who is based and grew up in Elsies river.
@@ -66,15 +66,15 @@ function Projects() {
               lg={6}
               xl={4}
             >
-              <MDBCard className="projectCards" id="projectCards">
-                <MDBCardBody className="cardsBody" id="cardsBody">
+              <MDBCard className="project-cards" id="project-cards">
+                <MDBCardBody className="cards-body" id="cards-body">
                   <a
                     href="https://recipes-galore-jsrv.onrender.com"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     <MDBCardImage
-                      className="projectImg"
+                      className="project-img"
                       position="top"
                       alt="Recipes Galore website"
                       src={Recipes}
@@ -83,7 +83,7 @@ function Projects() {
                   <MDBCardTitle>
                     <strong>Recipes Galore Project</strong>
                   </MDBCardTitle>
-                  <MDBCardText className="cardText">
+                  <MDBCardText className="card-text">
                     This website, Recipes Galore, was created to have one space
                     where you could have recipes with ingredients and videos all
                     in one with easy access using what ingredients you have on
@@ -104,15 +104,15 @@ function Projects() {
               lg={6}
               xl={4}
             >
-              <MDBCard className="projectCards" id="projectCards">
-                <MDBCardBody className="cardsBody" id="cardsBody">
+              <MDBCard className="project-cards" id="project-cards">
+                <MDBCardBody className="cards-body" id="cards-body">
                   <a
                     href="https://cyf-chriskoetzee-tv.netlify.app/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     <MDBCardImage
-                      className="projectImg"
+                      className="project-img"
                       position="top"
                       alt="tv shows project"
                       src={TVShows}
@@ -121,7 +121,7 @@ function Projects() {
                   <MDBCardTitle>
                     <strong>My TV Shows Project</strong>
                   </MDBCardTitle>
-                  <MDBCardText className="cardText">
+                  <MDBCardText className="card-text">
                     This website was one of my projects that I had during the
                     Code Your future Boot camp that I was part of. Here we made
                     use of an API to pull through the relevant information.
@@ -142,15 +142,15 @@ function Projects() {
               lg={6}
               xl={4}
             >
-              <MDBCard className="projectCards" id="projectCards">
-                <MDBCardBody className="cardsBody" id="cardsBody">
+              <MDBCard className="project-cards" id="project-cards">
+                <MDBCardBody className="cards-body" id="cards-body">
                   <a
                     href="https://my-final-project-2.onrender.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     <MDBCardImage
-                      className="projectImg"
+                      className="project-img"
                       position="top"
                       alt="Final project home page"
                       src={myFinalProject}
@@ -159,7 +159,7 @@ function Projects() {
                   <MDBCardTitle>
                     <strong>My Final Project</strong>
                   </MDBCardTitle>
-                  <MDBCardText className="cardText">
+                  <MDBCardText className="card-text">
                     This project was created to assist a disadvantaged school
                     with certain tasks that they would have a platform to carry
                     out these tasks. This was a collaboration between 4

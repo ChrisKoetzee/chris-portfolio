@@ -26,7 +26,7 @@ function Footer() {
         color: '#7FFF00',
       }}
     >
-      <MDBContainer className="p-4 pb-0">
+      <MDBContainer className="p-4">
         <MDBRow>
           <MDBCol>
             <div>
@@ -36,7 +36,7 @@ function Footer() {
             </div>
           </MDBCol>
           <MDBCol>
-            <section className="mb-4">
+            <section className="m-4">
               <MDBBtn
                 floating
                 className="m-1"

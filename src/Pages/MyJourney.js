@@ -16,7 +16,7 @@ import Image4 from '../Images/carouselImages/whatsNext.jpg';
 
 function MyJourney() {
   return (
-    <section id="myJourney" className="myJourney">
+    <section id="myJourney">
       <MDBContainer
         style={{
           height: '100vh',

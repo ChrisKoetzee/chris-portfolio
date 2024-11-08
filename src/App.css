@@ -22,7 +22,7 @@ body {
     to center,
     rgba(128, 128, 128, 0) 0%,
     rgba(128, 128, 128, 1) 50%,
-    rgba(128, 128, 128, 0) 100%
+    rgba(128, 128, 128, 0) 100%,
   );
   display: flex;
   justify-content: space-between;
@@ -33,10 +33,10 @@ body {
 
 .nav {
   background: linear-gradient(
-    to bottom,  
+    to bottom,
     rgba(128, 128, 128, 0) 0%,
     rgb(128, 128, 128) 50%,
-    rgba(128, 128, 128, 0) 100%
+    rgba(128, 128, 128, 0) 100%,
   );
   position: fixed;
   top: 0;
@@ -59,7 +59,8 @@ body {
 }
 
 .home {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url('/src/Images/HomeImages/homeImg.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -138,16 +139,16 @@ body {
   text-align: center;
 }
 
-.projectCards {
+.project-cards {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
   min-height: 600px;
-  max-height: auto; /* Consider changing 'auto' to a valid value */
+  max-height: auto; 
 }
 
-.cardsBody {
+.cards-body {
   border: 5px solid yellow;
   border-radius: 10px;
   display: flex;
@@ -156,7 +157,7 @@ body {
   justify-content: space-between;
 }
 
-.projectImg {
+.project-img {
   border: 5px solid #7fff00;
   border-radius: 10px;
 }
@@ -167,7 +168,7 @@ body {
   width: 100%;
 }
 
-.MDBCardText {
+.MDBCard-text {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
@@ -185,7 +186,7 @@ body {
     to bottom,
     rgba(128, 128, 128, 0) 0%,
     rgb(128, 128, 128) 50%,
-    rgba(128, 128, 128, 0) 100%
+    rgba(128, 128, 128, 0) 100%,
   );
   display: flex;
   justify-content: space-between;

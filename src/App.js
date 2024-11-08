@@ -14,7 +14,10 @@ function App() {
     <MDBContainer
       fluid
       className="d-flex flex-column justify-content-between w-100 h-100"
-      style={{ backgroundColor: '#000000', color: '#7FFF00' }}
+      style={{
+        backgroundColor: '#000000',
+        color: '#7FFF00',
+      }}
     >
       <ToastContainer />
       <Navbar />
