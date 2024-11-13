@@ -1,5 +1,6 @@
 import { ToastContainer } from 'react-toastify';
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { MDBContainer } from 'mdb-react-ui-kit';
 import Navbar from './Components/Navbar';
 import Home from './Pages/Home';
