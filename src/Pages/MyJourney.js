@@ -80,8 +80,8 @@ function MyJourney() {
                     height: '50%',
                     width: '60%',
                     justifyContent: 'center',
-                    borderColor: 'white',
-                    borderWidth: '3px',
+                    borderColor: 'yellow',
+                    borderWidth: '5px',
                     borderStyle: 'solid',
                     borderRadius: '30px',
                   }}
@@ -98,7 +98,7 @@ function MyJourney() {
                 color: 'Black',
                 maxWidth: '1200px',
                 borderColor: 'white',
-                borderWidth: '5px',
+                borderWidth: '8px',
                 borderStyle: 'solid',
                 borderRadius: '30px',
               }}
@@ -127,8 +127,8 @@ function MyJourney() {
                     height: '50%',
                     width: '60%',
                     justifyContent: 'center',
-                    borderColor: 'white',
-                    borderWidth: '3px',
+                    borderColor: 'yellow',
+                    borderWidth: '5px',
                     borderStyle: 'solid',
                     borderRadius: '30px',
                   }}
@@ -145,7 +145,7 @@ function MyJourney() {
                 color: 'Black',
                 maxWidth: '1200px',
                 borderColor: 'white',
-                borderWidth: '5px',
+                borderWidth: '8px',
                 borderStyle: 'solid',
                 borderRadius: '30px',
               }}
@@ -174,8 +174,8 @@ function MyJourney() {
                     height: '50%',
                     width: '60%',
                     justifyContent: 'center',
-                    borderColor: 'white',
-                    borderWidth: '3px',
+                    borderColor: 'yellow',
+                    borderWidth: '5px',
                     borderStyle: 'solid',
                     borderRadius: '30px',
                   }}
@@ -192,7 +192,7 @@ function MyJourney() {
                 color: 'Black',
                 maxWidth: '1200px',
                 borderColor: 'white',
-                borderWidth: '5px',
+                borderWidth: '8px',
                 borderStyle: 'solid',
                 borderRadius: '30px',
               }}
@@ -220,8 +220,8 @@ function MyJourney() {
                     height: '50%',
                     width: '60%',
                     justifyContent: 'center',
-                    borderColor: 'white',
-                    borderWidth: '3px',
+                    borderColor: 'yellow',
+                    borderWidth: '5px',
                     borderStyle: 'solid',
                     borderRadius: '30px',
                   }}

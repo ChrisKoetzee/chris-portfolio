@@ -29,15 +29,19 @@ function Home() {
   }, []);
 
   return (
-    <section id="home" className="home">
+    <section
+      id="home"
+      className="home"
+      style={{
+        height: '100vh',
+      }}
+    >
       <Container
         fluid
         className="d-flex flex-column justify-content-center home"
         style={{
+          paddingTop: '5rem',
           height: '100vh',
-          width: '100%',
-          marginTop: '10rem',
-          paddingTop: '15rem',
         }}
       >
         <Row
@@ -83,8 +87,9 @@ function Home() {
               thumbnail
               className={imgIn ? 'slide-in' : 'slide-out'}
               style={{
-                height: '100%',
-                width: '50%',
+                height: '50%',
+                width: '40%',
+                margin: '3rem',
                 borderColor: '#7FFF00',
                 borderWidth: '3px',
                 borderStyle: 'solid',
